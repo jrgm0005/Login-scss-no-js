@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+  <title>Juan Ramón González Morales</title>
+</head>
+<body>
+  <div class="wrapper">
+    <form class="form-signin" action="https://dinahosting.com/login-usuarios" method="post">
+      <h2 class="form-signin-heading">Login de usuario</h2>
+      <div>
+        <p>Usuario (Correo Electrónico)</p>
+        <input type="email" class="form-control" name="username" placeholder="Email Address" required autofocus="" />
+      </div>
+      <div>
+        <p>Contraseña</p>
+        <input type="password" class="form-control" name="password" placeholder="Password" required minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" />
+      </div>
+      <label class="checkbox">
+        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+      </label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
